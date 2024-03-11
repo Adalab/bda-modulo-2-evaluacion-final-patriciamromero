@@ -61,7 +61,7 @@ Puedes encontrarme en LinkedIn: https://www.linkedin.com/in/patricia-marcos-rome
 ### 🇬🇧 About Me 🚀
 Data analytics student at Adalab. I'm passionate about data analysis and solving complex problems. I've found my passion in this area thanks to previous work experiences where I had to track and evaluate different KPI's. 
 
-I'm on LinkedIn. Don't hesitate to get in toch: https://www.linkedin.com/in/patricia-marcos-romero/
+I'm on LinkedIn. Don't hesitate to get in touch: https://www.linkedin.com/in/patricia-marcos-romero/
 
 ## 🇪🇸 Próximos pasos y sugerencias. 
 
