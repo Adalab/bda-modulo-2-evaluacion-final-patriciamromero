@@ -156,7 +156,35 @@ FROM category
 WHERE category.name = "Horror")
 );
 
+-- BONUS
+-- 24. BONUS: Encuentra el título de las películas que son comedias y tienen una duración mayor a 180 minutos en la tabla `film`.
+WITH Peliculas_comedia AS (SELECT title
+FROM film
+INNER JOIN film_category ON film_category.film_id = film.film_id
+INNER JOIN category ON film_category.category_id = category.category_id
+WHERE category.name = "Comedy")
+SELECT title 
+FROM Peliculas_comedia
+WHERE title IN (
+SELECT title
+FROM film
+WHERE film.length > 180);
 
+-- 25. BONUS: Encuentra todos los actores que han actuado juntos en al menos una película. La consulta debe mostrar el nombre y apellido de los actores y el número de películas en las que han actuado juntos.
 
-
+WITH PeliculasActores AS (
+  SELECT COUNT(*) AS Peliculas
+  FROM film_actor AS fa1
+  INNER JOIN film_actor AS fa2 ON fa1.film_id = fa2.film_id
+) -- cte calculates de number of movies starred by each actor 
+SELECT -- selects the name of the actors giving A and B in order to avoid any row with same actor's name in both columns 
+  CONCAT(A.first_name, ' ', A.last_name) AS NombreActorA,
+  CONCAT(B.first_name, ' ', B.last_name) AS NombreActorB,
+  (SELECT COUNT(DISTINCT fa1.film_id) -- calculation of the number of movies for each pair of actors
+    FROM film_actor AS fa1
+    INNER JOIN film_actor AS fa2 ON fa1.film_id = fa2.film_id
+    WHERE fa1.actor_id = A.actor_id AND fa2.actor_id = B.actor_id) AS NumeroPeliculas
+FROM actor AS A -- selects the name of the actors giving A and B in order to avoid any row with same actor's name in both columns
+INNER JOIN actor AS B ON A.actor_id <> B.actor_id -- selects the name of the actors giving A and B in order to avoid any row with same actor's name in both columns
+HAVING NumeroPeliculas > 1; -- this filter just displays the combination of actor that have already work toghether
 
