@@ -1,22 +1,22 @@
 
 # Evaluación módulo II - Assesment module II: 
 
-## Descripción: 
+## 🇪🇸Descripción: 
 
 Este repositorio contiene el código para la evaluación final del módulo 2 del Bootcamp de Data Analytics de Adalab. La evaluación consiste en una serie de ejercicios que evalúan la comprensión y habilidades del estudiante en relación con SQL
 
-### Description: 
+### 🇬🇧Description: 
 This repository contains the code for the final assessment of Module 2 of Adalab's Data Analytics Bootcamp. It contains the 25 exercises that allow to assess the knowledge acquired about SQL in the previous lesson. 
 
-## Base de datos: 
+## 🇪🇸Base de datos: 
 
 Para realizar la evaluación se utiliza la base de datos Sakila, una base de datos de ejemplo que simula una tienda de alquiler de películas.
 
-### Data Base: 
+### 🇬🇧Data Base: 
 
 The database used for this evaluation was 'Sakila', a sample database that simulates a Blockbuster store database. 
 
-## Ejercicios:
+## 🇪🇸Ejercicios:
 
 La evaluación contiene 25 ejercicios que abarcan diferentes aspectos de SQL, incluyendo:
 
@@ -27,7 +27,7 @@ Subconsultas
 CTEs
 Optimización de consultas
 
-### Exercices: 
+### 🇬🇧Exercices: 
 
 The 25 exercices of the evaluation included different aspects of SQL, such as: 
 
@@ -38,11 +38,11 @@ Subqueries.
 CTEs.
 Queries optimization. 
 
-## Archivos: 
+## 🇪🇸 Archivos: 
 
 Los ejerecicios y su resolución se encuentran en el archivo 'evaluacion_ejercicios.sql'.
 
-### Files: 
+### 🇬🇧 Files: 
 
 The exercises and their solutions can be found in 'evaluacion_ejercicios.sql'. 
 
