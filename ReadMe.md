@@ -47,18 +47,33 @@ Los ejerecicios y su resolución se encuentran en el archivo 'evaluacion_ejercic
 The exercises and their solutions can be found in 'evaluacion_ejercicios.sql'. 
 
 
-
-
-
 ## Authors
 
 -  [@patriciamromero](https://www.github.com/patriciamromero)
 
 
-## 🚀 About Me
+## 🇪🇸 Sobre mi🚀
 
 Estudiante del bootcamp de análisis de datos en Adalab. Me apasiona el análisis de datos y la resolución de problemas complejos. Descubrí mi pasión por el análisis de datos gracias a experiencias laborales previas en las que debía hacer seguimiento y evaluación de diversas métricas. 
 
+Puedes encontrarme en LinkedIn: https://www.linkedin.com/in/patricia-marcos-romero/
 
+### 🇬🇧 About Me 🚀
 Data analytics student at Adalab. I'm passionate about data analysis and solving complex problems. I've found my passion in this area thanks to previous work experiences where I had to track and evaluate different KPI's. 
+
+I'm on LinkedIn. Don't hesitate to get in toch: https://www.linkedin.com/in/patricia-marcos-romero/
+
+## 🇪🇸 Próximos pasos y sugerencias. 
+
+Si quieres puedes contactarte y darme tu opinión constructiva sobre el código de este repositorio. 
+
+### 🇬🇧 Next steps and feedback. 
+
+Don't hesitate to contact me if you want to give me some friendly feedback about the code on this repo. I'd love to hear from you and learn from other professionals in the community. 
+
+
+
+
+
+
 
